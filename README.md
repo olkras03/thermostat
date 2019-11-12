@@ -12,9 +12,9 @@ A project to build a javascript powered thermostat web application.
 
 - [x] Thermostat starts at 20 degrees
 
-- [ ] You can increase the temperature with an up function
+- [x] You can increase the temperature with an up function
 
-- [ ] You can decrease the temperature with a down function
+- [x] You can decrease the temperature with a down function
 
 - [ ] The minimum temperature is 10 degrees
 

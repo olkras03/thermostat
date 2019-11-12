@@ -28,6 +28,13 @@ describe("Thermostat", function() {
       expect(thermostat.getCurrentTemperature()).toEqual(21);
     });
   });
+
+  describe("decreases in temperature with down()", function() {
+    it("decreases temperature", function() {
+      thermostat.down();
+      expect(thermostat.getCurrentTemperature()).toEqual(19);
+    });
+  });
 });
 
 //You can increase the temperature with an up function
