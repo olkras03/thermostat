@@ -46,10 +46,17 @@ describe("Thermostat", function() {
   });
 
   describe("power saving mode and max tempearture", function() {
-it("has power saving mode on by default", function() {
-  expect(thermostat.isPowerSavingModeOn()).toBe(true);
-});
+    it("has power saving mode on by default", function() {
+      expect(thermostat.isPowerSavingModeOn()).toBe(true);
+    });
+
+    it("can switch power saving mode off", function() {
+      thermostat.switchPowerSavingModeOff();
+      expect(thermostat.isPowerSavingModeOn()).toBe(false);
+    });
   });
+
+
 });
 
 //You can increase the temperature with an up function
