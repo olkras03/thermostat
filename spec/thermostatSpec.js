@@ -35,6 +35,13 @@ describe("Thermostat", function() {
       expect(thermostat.getCurrentTemperature()).toEqual(19);
     });
   });
+
+  describe("minimum temperature set to 10 degrees", function() {
+    for (var i = 0; i < 11; i++) {
+      thermostat.down();
+    }
+    expect(thermostat.getCurrentTemperature()).toEqual(10);
+  });
 });
 
 //You can increase the temperature with an up function
