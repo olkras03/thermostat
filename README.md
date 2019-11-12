@@ -10,7 +10,7 @@ A project to build a javascript powered thermostat web application.
 
 ## Specification ##
 
-- [ ] Thermostat starts at 20 degrees
+- [x] Thermostat starts at 20 degrees
 
 - [ ] You can increase the temperature with an up function
 
