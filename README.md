@@ -16,7 +16,7 @@ A project to build a javascript powered thermostat web application.
 
 - [x] You can decrease the temperature with a down function
 
-- [ ] The minimum temperature is 10 degrees
+- [x] The minimum temperature is 10 degrees
 
 - [ ] If power saving mode is on, the maximum temperature is 25 degrees
 
