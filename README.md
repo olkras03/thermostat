@@ -18,7 +18,7 @@ A project to build a javascript powered thermostat web application.
 
 - [x] The minimum temperature is 10 degrees
 
-- [ ] If power saving mode is on, the maximum temperature is 25 degrees
+- [x] If power saving mode is on, the maximum temperature is 25 degrees
 
 - [ ] If power saving mode is off, the maximum temperature is 32 degrees
 

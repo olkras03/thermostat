@@ -61,9 +61,15 @@ describe("Thermostat", function() {
       thermostat.switchPowerSavingModeOn();
       expect(thermostat.isPowerSavingModeOn()).toBe(true);
     });
+
+    describe("when power saving mode is on",
+      function() {
+        it("has a maximum teperature of 25 degrees", function() {
+          for (var i = 0; i < 6; i++) {
+            thermostat.up();
+          }
+          expect(thermostat.getCurrentTemperature()).toEqual(25);
+        });
+      });
   });
-
-
 });
-
-//You can increase the temperature with an up function
